@@ -4,5 +4,5 @@ a translator application build with java and swing. each language dictionary sto
 Schema : 
 1. Client ----> Chosing : Source Language & Destination Language
 2. CLient ----> Translator App (Enter the Word to translate) 
-3.                       (App) -> Proxy -> Searching for the destination server and send the word to be translated to it.
+--------------------- 3. (App) -> Proxy -> Searching for the destination server and send the word to be translated to it.
 4.Client <----Result---- (App) <- Proxy <- Result | error <- Destination Server
